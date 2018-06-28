@@ -45,7 +45,7 @@
                     ?>
                         <div class="col-xs-12 col-sm-6 col-md-4 pitch-content add-padding">
                           <h4>
-                            <a href="#">
+                            <a href="<?php echo get_permalink($loop->the_post()->term_id); ?>">
                             <?php 
                               echo the_title();
                             ?>
@@ -122,7 +122,7 @@
 
                                   <div class="col-xs-12 col-sm-6 col-md-4 pitch-content add-padding">
                                     <h4>
-                                      <a href="#">
+                                      <a href="<?php echo get_permalink($post->term_id); ?>">
                                       <?php 
                                           echo get_the_title($post->term_id);
                                       ?>
