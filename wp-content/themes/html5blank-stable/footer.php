@@ -40,6 +40,13 @@
 		ga('create', 'UA-XXXXXXXX-XX', 'yourdomain.com');
 		ga('send', 'pageview');
 		</script>
+
+		<script src="<?php echo get_template_directory_uri(); ?>/js/jquery-2.1.1.js"></script>
+		<script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script> 
+		<script src="<?php echo get_template_directory_uri(); ?>/js/plugins.js"></script> 
+		<script src="<?php echo get_template_directory_uri(); ?>/js/menu.js"></script> 
+		<script src="<?php echo get_template_directory_uri(); ?>/js/custom.js"></script> 
+		<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.subscribe.js"></script>
 		</div>
 	</body>
 </html>
